@@ -6,11 +6,12 @@
     которые вы указываете в ширине и высоте элемента. */
 }
 #root {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
 .App {
-
+    position: relative;
+    overflow-x: hidden;
 }

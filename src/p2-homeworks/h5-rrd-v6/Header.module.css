@@ -1,0 +1,46 @@
+.menu {
+    width: 205px;
+    padding: 10px;
+    /*display: flex;*/
+    /*justify-content: left;*/
+    /*align-items: center;*/
+    transition: 0.7s;
+
+}
+.menulist {
+
+}
+.list {
+    display: inline;
+    list-style-type: none; /* Убираем маркеры */
+}
+.link {
+    text-decoration: none; /* подчеркивание */
+    color: #3CB371;
+    margin: 2px;
+    padding: 2px;
+    transition: color .1s linear;
+    /*Плавный переход*/
+}
+.link:hover {
+    background: #e1e3e6;
+    border-radius: 2px;
+}
+.active {
+    color: blue;
+}
+.Btn {
+    position: absolute;
+    left: 210px;
+    top: 5px;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.active{
+    transform: translateX(-100%);
+}
+.passive {
+    transform: translateX(0);
+}

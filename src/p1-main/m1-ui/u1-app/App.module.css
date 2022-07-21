@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*читывать любые границы и внутренние отступы в значениях,
+    которые вы указываете в ширине и высоте элемента. */
+}
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+
+}

@@ -1,0 +1,31 @@
+.main {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    position: relative;
+}
+.totalUsers {
+    text-align: center;
+    position: absolute;
+    top: -28px;
+}
+.main input{
+    width: 70%;
+    height: 30px;
+    outline: none;
+}
+.main button{
+    height: 30px;
+    width: 50px;
+}
+.btn {
+    border: 1px solid teal;
+}
+.someClass {
+    border: 1px solid teal;
+}
+
+.error {
+    border: 1px solid red;
+}

@@ -1,0 +1,19 @@
+.btn {
+    margin: 5px;
+    border: 1px solid teal;
+    min-width: 50px;
+    min-height: 30px;
+}
+.spanbox {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid teal;
+}
+.btngrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
